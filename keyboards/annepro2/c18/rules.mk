@@ -10,7 +10,7 @@ ifeq ($(strip $(ANNEPRO2_EEPROM)), yes)
     SRC += spi_master.c eeprom_w25x20cl.c
 endif
 
-LAYOUTS := brunosabenca
+KEYMAPS := brunosabenca
 
 # MCU
 MCU = cortex-m0plus
